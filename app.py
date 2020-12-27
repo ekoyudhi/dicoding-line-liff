@@ -10,7 +10,7 @@ import warnings
 warnings.simplefilter('error',Image.DecompressionBombWarning)
 
 app = Flask(__name__, static_folder='imgs')
-bootstrap = Bootstrap(app)
+#bootstrap = Bootstrap(app)
 
 @app.route('/')
 def do_get():
